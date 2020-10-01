@@ -1,0 +1,6 @@
+#Binaries to exclude
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
