@@ -30,7 +30,6 @@ int main(int argc, char const *argv[]) {
     std::cin >> gross;
 
     float tip = calculate::calculateTip(gross, PERCENTAGE);
-    std::cout << tip << '\n';
     float net = calculate::calculateNet(tip, gross, PERCENTAGE);
 
     calculate::displayReciept(gross, net, tip, PERCENTAGE);
