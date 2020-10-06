@@ -1,5 +1,7 @@
 #include <iostream>
 #include "POSsystem.h"
+#define PERCENTAGE 10
+
 using namespace std;
 
 namespace calculate {
@@ -23,7 +25,6 @@ namespace calculate {
 }
 
 int main(int argc, char const *argv[]) {
-    const int PERCENTAGE = 10;
     float gross;
 
     std::cout << "Gross Amount: " << '\n';
